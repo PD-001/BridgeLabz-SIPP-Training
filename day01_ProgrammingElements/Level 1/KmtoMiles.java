@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class L1_8{
+public class KmtoMiles{
     public static void main(String[] args) {
         double km;
         Scanner input = new Scanner(System.in);

@@ -1,4 +1,4 @@
-public class L1_4{
+public class ProfitPercent{
     public static void main(String[] args) {
         double cost = 129, selling = 191;
         double profit = selling - cost;

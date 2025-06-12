@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class L1_10{
+public class HeightCMtoFeet{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double cm = input.nextDouble();

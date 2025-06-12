@@ -1,4 +1,4 @@
-public class L1_5{
+public class PenPerStudent{
     public static void main(String[] args) {
         int pens = 14, students = 3;
         int each = pens / students;

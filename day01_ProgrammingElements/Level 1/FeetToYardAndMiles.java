@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class L1_14 {
+public class FeetToYardAndMiles {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double feet = input.nextDouble();

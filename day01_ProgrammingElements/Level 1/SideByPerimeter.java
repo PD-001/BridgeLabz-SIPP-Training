@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class L1_13 {
+public class SideByPerimeter {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double perimeter = input.nextDouble();

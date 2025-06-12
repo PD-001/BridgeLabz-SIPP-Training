@@ -1,4 +1,4 @@
-public class L1_3 {
+public class DistKmToMiles {
     public static void main(String[] args) {
         double km = 10.8;
         double miles = km / 1.6;
