@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class L2_7 {
+public class ArithmeticOperations {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int a = input.nextInt();

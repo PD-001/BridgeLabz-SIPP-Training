@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class L2_1 {
+public class Calculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double number1 = input.nextDouble();

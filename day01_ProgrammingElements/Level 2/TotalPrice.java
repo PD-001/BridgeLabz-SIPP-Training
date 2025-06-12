@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class L2_5 {
+public class TotalPrice {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double unitPrice = input.nextDouble();

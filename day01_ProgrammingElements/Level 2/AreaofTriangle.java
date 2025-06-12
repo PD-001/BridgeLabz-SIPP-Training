@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class L2_2 {
+public class AreaofTriangle {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double base = input.nextDouble();

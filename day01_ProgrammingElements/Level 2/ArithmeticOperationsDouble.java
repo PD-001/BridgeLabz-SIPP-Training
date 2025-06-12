@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class L2_8 {
+public class ArithmeticOperationsDouble {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double a = input.nextDouble();
