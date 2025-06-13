@@ -1,9 +1,10 @@
 package ControlFlow;
 
 import java.util.Scanner;
+
 public class Factorial {
     public static void main(String[] args) {
-        Scanner sc = new java.util.Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter a positive integer to find its factorial: ");
         int number = sc.nextInt();
         sc.close();
