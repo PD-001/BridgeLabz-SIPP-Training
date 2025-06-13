@@ -23,7 +23,8 @@ public class FizzBuzz {
             } else {
                 System.out.println(i);
             }
-            i++;
+            i+=1;
+            //done
         }
     }
 }
