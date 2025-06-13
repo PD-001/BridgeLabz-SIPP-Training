@@ -10,7 +10,7 @@ public class AllOddEvenNumber{
             System.out.println("The number " + number + " is not a natural number.");
             return;
         }
-        for (int i = 1; i <= number; i++) {
+        for (int i = 1; i <= number; i+=1) {
             if (i % 2 == 0) {
                 System.out.println(i + " is an even number.");
             } else {
