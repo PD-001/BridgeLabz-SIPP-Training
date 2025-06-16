@@ -45,3 +45,4 @@ public class SwitchCaseCalculator {
         // Close the scanner
         scanner.close();
     }
+}
