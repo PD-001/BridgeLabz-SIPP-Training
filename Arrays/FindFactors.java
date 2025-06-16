@@ -15,7 +15,7 @@ public class FindFactors {
         int index = 0;
 
         // Step 3: Find factors and store them
-        for (int i = 1; i <= number; i++) {
+        for (int i = 1; i <= number; i+=1) {
             if (number % i == 0) {
                 if (index == maxFactor) {
                     maxFactor *= 2;
