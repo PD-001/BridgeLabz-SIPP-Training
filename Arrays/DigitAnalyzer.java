@@ -20,14 +20,8 @@ public class DigitAnalyzer {
             int digit = number % 10;
             number = number / 10;
 
-            // Resize array if needed
             if (index == maxDigit) {
-                maxDigit *= 2;
-                int[] temp = new int[maxDigit];
-                for (int i = 0; i < index; i++) {
-                    temp[i] = digits[i];
-                }
-                digits = temp;
+                break;
             }
 
             digits[index] = digit;
