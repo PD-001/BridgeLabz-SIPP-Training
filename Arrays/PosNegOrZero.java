@@ -25,5 +25,6 @@ public class PosNegOrZero {
                 System.out.println(arr[i]+" is zero");
             }
         }
+        sc.close();
     }
 }
