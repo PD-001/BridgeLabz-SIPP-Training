@@ -1,6 +1,8 @@
-Cpackage Methods;
+package Methods;
+
 import java.util.Scanner;
-public class SumOfNaturalNumbers {
+
+public class SumOfNaturalNumbers2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
