@@ -1,36 +1,28 @@
 package Methods;
+
 import java.util.Scanner;
+import java.lang.Math;
 
 public class CheckNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input number from the user
-        System.out.print("Enter an integer: ");
-        int number = sc.nextInt();
+        // Input temperature and wind speed from the user
+        System.out.print("Enter the temperature in Fahrenheit: ");
+        double temperature = sc.nextDouble();
+        System.out.print("Enter the wind speed in miles per hour: ");
+        double windSpeed = sc.nextDouble();
 
-        // Check the number and get the result
-        int result = checkNumber(number);
+        // Calculate wind chill
+        double windChill = calculateWindChill(temperature, windSpeed);
 
         // Output the result
-        if (result == -1) {
-            System.out.println("The number is negative.");
-        } else if (result == 1) {
-            System.out.println("The number is positive.");
-        } else {
-            System.out.println("The number is zero.");
-        }
+        System.out.println("The wind chill temperature is: " + windChill + " degrees Fahrenheit");
 
         sc.close();
     }
 
-    public static int checkNumber(int num) {
-        if (num < 0) {
-            return -1; // Negative number
-        } else if (num > 0) {
-            return 1; // Positive number
-        } else {
-            return 0; // Zero
-        }
+    public static double calculateWindChill(double temperature, double windSpeed) {
+        return 35.74 + (0.6215 * temperature) + (0.4275 * temperature - 35.75) * Math.pow(windSpeed, 0.16);
     }
 }
