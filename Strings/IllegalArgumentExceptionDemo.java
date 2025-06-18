@@ -21,8 +21,8 @@ public class IllegalArgumentExceptionDemo {
             System.out.println("Caught RuntimeException: " + e.getMessage());
         }
     }
-
     public static void main(String[] args) {
+        // Create a Scanner object for user input
         Scanner sc = new Scanner(System.in);
 
         // Step 1: Take user input for a string
