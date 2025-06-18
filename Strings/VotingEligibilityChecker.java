@@ -49,5 +49,6 @@ public class VotingEligibilityChecker {
         int[] ages = generateAges(n);
         String[][] results = checkEligibility(ages);
         displayResults(results);
+        sc.close();
     }
 }
