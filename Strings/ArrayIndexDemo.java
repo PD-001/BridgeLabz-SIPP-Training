@@ -21,6 +21,7 @@ public class ArrayIndexDemo {
 
         //Call method to handle the exception using try-catch
         handleException(names);
+        sc.close();
     }
 
     //Generate runtime exception by accessing invalid index
