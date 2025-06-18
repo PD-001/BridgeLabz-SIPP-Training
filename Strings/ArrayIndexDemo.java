@@ -1,5 +1,5 @@
 package Strings;
-
+import java.util.Scanner;
 public class ArrayIndexDemo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
