@@ -50,5 +50,6 @@ public class ConvertAndCompareUpperCase {
         System.out.println("\nBuilt-in uppercase: " + builtinUpper);
         System.out.println("Custom uppercase:   " + customUpper);
         System.out.println("Are both results same? " + areEqual);
+        sc.close();
     }
 }
