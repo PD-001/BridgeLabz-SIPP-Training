@@ -7,11 +7,11 @@ public class Circle {
 		this.radius=radius;
 	}
 	
-	public double CircleCircumferernce (double radius) {
+	public double CircleCircumferernce () {
 		return (2 * 3.14 * radius);
 	}
 	
-	public double CircleArea (double radius) {
+	public double CircleArea () {
 		return (3.14 * radius * radius);
 	}
 }

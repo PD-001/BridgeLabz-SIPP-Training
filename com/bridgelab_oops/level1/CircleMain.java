@@ -11,8 +11,8 @@ public class CircleMain {
 		
 		Circle circle=new Circle(radius);
 		
-		System.out.println("Circumference of the circle is " + circle.CircleCircumferernce(radius));
-		System.out.println("Area of the circle is " + circle.CircleArea(radius));
+		System.out.println("Circumference of the circle is " + circle.CircleCircumferernce());
+		System.out.println("Area of the circle is " + circle.CircleArea());
 		
 		sc.close();
 	}
