@@ -26,6 +26,7 @@ public class ItemMain {
 		item.totalCost(quantity);
 		
 		sc.close();
+		
 	}
 
 }

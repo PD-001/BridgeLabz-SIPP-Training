@@ -1,4 +1,4 @@
-package com.bridgelab_oops.level1;
+package com.bridgelab_oops.level2;
 
 public class MovieTicket {
     private String movieName;
