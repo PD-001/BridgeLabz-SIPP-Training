@@ -1,1 +1,3 @@
-CLEAN MAIN BRANCH.
+.classpath
+.project
+com/
