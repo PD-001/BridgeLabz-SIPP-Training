@@ -79,7 +79,7 @@ This README tracks my daily learning progress in core Java and OOPs, organized a
 📅 **27/06/25 (Fri)** – _Day 1: Questions on OOPS_  
 🔗 [View Code](https://github.com/PD-001/BridgeLabz-SIPP-Training/tree/Workshops)
 
-📅 **28/06/25 (Sat)** – _Day 1: Questions on OOPS_  
+📅 **28/06/25 (Sat)** – _Day 2: Questions on OOPS_  
 🔗 [View Code](https://github.com/PD-001/BridgeLabz-SIPP-Training/tree/Workshops)
 
 </details>
