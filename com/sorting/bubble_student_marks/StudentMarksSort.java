@@ -1,4 +1,6 @@
+package com.sorting.bubble_student_marks;
 import java.util.Scanner;
+
 
 public class StudentMarksSort {
 
