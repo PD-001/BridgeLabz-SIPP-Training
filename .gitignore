@@ -1,4 +1,4 @@
 .classpath
 .project
-com/
 /bin/
+*.class
