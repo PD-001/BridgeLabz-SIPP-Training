@@ -1,4 +1,4 @@
-package com.sortingalgorithms.heapsort;
+package com.sortingalgoritms.heapsort;
 
 import java.util.Scanner;
 

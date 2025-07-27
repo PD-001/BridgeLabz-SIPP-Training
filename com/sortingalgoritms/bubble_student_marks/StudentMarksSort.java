@@ -1,4 +1,4 @@
-package com.sorting.bubble_student_marks;
+package com.sortingalgoritms.bubble_student_marks;
 import java.util.Scanner;
 
 

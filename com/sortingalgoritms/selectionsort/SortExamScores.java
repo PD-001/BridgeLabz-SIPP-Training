@@ -1,4 +1,4 @@
-package com.sortingalgorithms.selectionsort;
+package com.sortingalgoritms.selectionsort;
 
 import java.util.Scanner;
 

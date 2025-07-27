@@ -1,4 +1,4 @@
-package com.sortingalgorithms.insertionsort;
+package com.sortingalgoritms.insertionsort;
 
 import java.util.Scanner;
 

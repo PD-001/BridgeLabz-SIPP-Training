@@ -1,4 +1,4 @@
-package com.sortingalgorithms.countingsort;
+package com.sortingalgoritms.countingsort;
 
 import java.util.Scanner;
 
