@@ -1,0 +1,12 @@
+CLASS Member
+    ATTRIBUTES: name, id, membershipDate
+    CONSTRUCTOR(name, id, membershipDate)
+    METHOD isMembershipValid(currentDate)
+        IF currentDate - membershipDate < 1 year
+            RETURN true
+        ELSE
+            RETURN false
+
+MAIN
+    CREATE Member object
+    CHECK validity using isMembershipValid()
