@@ -1,0 +1,18 @@
+ABSTRACT CLASS Crop
+    ATTRIBUTES: name, growthTime
+    ABSTRACT METHOD waterRequirement()
+    ABSTRACT METHOD harvest()
+
+CLASS Rice EXTENDS Crop
+    IMPLEMENT waterRequirement() → "Needs lots of water"
+    IMPLEMENT harvest() → "Harvest after 120 days"
+
+CLASS Wheat EXTENDS Crop
+    IMPLEMENT waterRequirement() → "Needs moderate water"
+    IMPLEMENT harvest() → "Harvest after 90 days"
+
+MAIN
+    CREATE Crop rice = new Rice()
+    CREATE Crop wheat = new Wheat()
+    CALL rice.waterRequirement(), rice.harvest()
+    CALL wheat.waterRequirement(), wheat.harvest()

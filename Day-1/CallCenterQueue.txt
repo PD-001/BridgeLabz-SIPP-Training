@@ -1,0 +1,20 @@
+CLASS Customer
+    ATTRIBUTES: name, type  // type = "normal" OR "emergency"
+
+CLASS CallCenter
+    ATTRIBUTE: Queue<Customer> normalQueue
+    ATTRIBUTE: Queue<Customer> emergencyQueue
+
+    METHOD addCustomer(customer)
+        IF customer.type == "emergency"
+            ADD to emergencyQueue
+        ELSE
+            ADD to normalQueue
+
+    METHOD serveCustomer()
+        IF emergencyQueue NOT EMPTY
+            DEQUEUE from emergencyQueue
+        ELSE IF normalQueue NOT EMPTY
+            DEQUEUE from normalQueue
+        ELSE
+            PRINT "No customers"

@@ -1,0 +1,17 @@
+CLASS TextEditor
+    ATTRIBUTE: Stack<String> undoStack
+    ATTRIBUTE: String currentText
+
+    METHOD typeText(text)
+        PUSH currentText INTO undoStack
+        APPEND text TO currentText
+
+    METHOD deleteText(count)
+        PUSH currentText INTO undoStack
+        REMOVE last count characters FROM currentText
+
+    METHOD undo()
+        IF undoStack NOT EMPTY
+            currentText = POP from undoStack
+        ELSE
+            PRINT "Nothing to undo"

@@ -1,0 +1,10 @@
+CLASS Employee
+    ATTRIBUTES: name, department
+
+MAIN
+    CREATE ArrayList<Employee> employees
+    ADD Employee objects
+
+    USE streams:
+        FILTER employees WHERE department == "desiredDept"
+        PRINT filtered employees

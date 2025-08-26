@@ -1,0 +1,21 @@
+ENUM TrafficLight { RED, GREEN, YELLOW }
+
+CLASS TrafficSignal
+    ATTRIBUTE: TrafficLight currentLight
+    ATTRIBUTE: int interval
+
+    CONSTRUCTOR(startLight, interval)
+
+    METHOD switchLight()
+        IF currentLight == RED
+            SET currentLight = GREEN
+        ELSE IF currentLight == GREEN
+            SET currentLight = YELLOW
+        ELSE IF currentLight == YELLOW
+            SET currentLight = RED
+
+    METHOD runSimulation(time)
+        LOOP for time units
+            PRINT currentLight
+            WAIT interval
+            CALL switchLight()
